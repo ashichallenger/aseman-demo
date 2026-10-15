@@ -1,0 +1,19 @@
+# heavy / reinstallable
+.venv/
+models/
+remotion/node_modules/
+remotion/public/jobs
+.agents/
+.claude/skills/remotion-*
+__pycache__/
+# personal media and derived data (this repo is public): raw video, renders, masks, transcripts
+jobs/
+outputs/*.mp4
+qa/**/*.jpg
+qa/**/*.png
+qa/**/*.mp4
+qa/**/*.log
+# third-party reference material from the kit (not ours to republish)
+styles/*/refs/
+styles/*/analysis/
+styles/*/golden/
